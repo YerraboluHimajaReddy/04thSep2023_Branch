@@ -29,7 +29,6 @@ public class SignOutPage2 {
 	@FindBy(xpath ="//a[text()='Logout']")
 	public WebElement logout_Button;
 
-
 	public void clickLogout() {
 
 		logout_Button.click();
